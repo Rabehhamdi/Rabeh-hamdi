@@ -46,6 +46,7 @@
     <script src="js/jflickrfeed.min.js"></script> <!-- jQuery Flickr -->
     <script src="js/twitter-flickr-options.js"></script> <!-- jQuery Tweets Options -->
     <script src="js/formulaire.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      
     
   <!-- End JavaScript -->
@@ -55,6 +56,7 @@
   <![endif]-->
 
   <!-- Favicons -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon/favicon.ico">
   <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
@@ -62,14 +64,16 @@
 
 </head>
 <body>
-
+<script>
+    AOS.init();
+</script>
   <div id="wrap" class="boxed">
 
   <header>
-    <div class="container clearfix">
+    <div  class="container clearfix">
     
       <div >
-        <div class="logo">
+        <div class="logo" data-aos="fade-down" data-aos-duration="1300">
          
           <img src="images/logoo.png" class="displayed" alt="Crevision - Creative Template" /> 
         
@@ -86,7 +90,7 @@
   <!--Start 1ere partie formulaire + description  -->
 <div class="container clearfix">
 <div class="two-thirds column">
-    <div class="who">
+    <div class="who"data-aos="fade-right"data-aos-duration="1300" >
         <h1 class="title">L’isolation de votre maison pour 1€. <span class="line"></span></h1>
         <h2>Grâce à "Coup de Économie d’Énergie</h2><br><br><br>
         <p>
@@ -109,7 +113,7 @@
 
 <div class="one-third column">
 <!-- multistep form -->
-<div id="wrapper">
+<div id="wrapper" data-aos="fade-left" data-aos-duration="1300">
     <br>
     <span class='baricon'>1</span>
     <span id="bar1" class='progress_bar'></span>
@@ -598,7 +602,7 @@
       <li class="slide">	
       
       <!-- item 1 -->
-      <div class="one-third column item">
+      <div class="one-third column item" data-aos="fade-down-right" data-aos-duration="1300">
           <div class="caption">
             <a href="images/item2List1.png" rel="prettyPhoto[gallery1]">
           <img src="images/item1List1.png"  alt="" class="pic"/>
@@ -610,7 +614,7 @@
       <!-- End -->
       
       <!-- item 2 -->
-      <div class="one-third column item">
+      <div class="one-third column item"data-aos="flip-left" data-aos-duration="1300">
           <div class="caption">
           <a href="images/item2List1.png" rel="prettyPhoto[gallery1]">
           <img src="images/item2List1.png" alt="" class="pic" />
@@ -622,7 +626,7 @@
       <!-- End -->
       
       <!-- item 3 -->
-      <div class="one-third column item">
+      <div class="one-third column item"  data-aos="fade-down-left" data-aos-duration="1300">
           <div class="caption">
           <a href="images/item3List1.png" rel="prettyPhoto[gallery1]">
             <img src="images/item3List1.png" alt="" class="pic" />
@@ -658,7 +662,7 @@
         </div>
     
         <!-- item 1 -->
-        <div class="eight columns">
+        <div class="eight columns" data-aos="zoom-in" data-aos-duration="1300">
             <div class="item">
                 <div class="square"><a href="#"><img src="images/avatar1.jpg" alt="" /></a>
                 </div>
@@ -670,7 +674,7 @@
         <!-- End -->
     
         <!-- item 2 -->
-        <div class="eight columns">
+        <div class="eight columns" data-aos="zoom-in-up" data-aos-duration="1300">
             <div class="item">
                 <div class="square"><a href="#"><img src="images/avatar2.jpg" alt="" /></a>
                 </div>
@@ -682,7 +686,7 @@
         <!-- End -->
     
         <!-- item 3 -->
-        <div class="eight columns">
+        <div class="eight columns" data-aos="zoom-in-down" data-aos-duration="1300">
             <div class="item active">
                 <div class="square"><a href="#"><img src="images/avatar2.jpg" alt="" /></a>
                 </div>
@@ -694,7 +698,7 @@
         <!-- End -->
     
         <!-- item 4 -->
-        <div class="eight columns">
+        <div class="eight columns" data-aos="zoom-in-left" data-aos-duration="1300">
             <div class="item active">
                 <div class="square"><a href="#"><img src="images/avatar1.jpg" alt="" /></a>
                 </div>
@@ -777,7 +781,7 @@
 
 
 
-    <div class="lp-element lp-pom-text XmediumText nlh" id="lp-pom-text-29">
+    <div data-aos="zoom-in-right" data-aos-duration="1300" class="lp-element lp-pom-text XmediumText nlh" id="lp-pom-text-29">
         <h3 style="line-height: 38px; text-align: center;">
             <span
                 style="font-size: 36px; font-family: Rubik; font-weight: 400; font-style: normal; color: rgb(47, 84, 128);"><strong>Les
@@ -789,7 +793,7 @@
 
  <br><br><br><br><br>
 
-    <div class="one-thirds column bottom-2">
+    <div class="one-thirds column bottom-2" data-aos="zoom-out" data-aos-duration="1300">
          
     
          <h2>
@@ -818,7 +822,7 @@
     </div>
 <br> 
 
-    <div class="one-thirds column bottom-2">
+    <div class="one-thirds column bottom-2" data-aos="zoom-out-up" data-aos-duration="1300">
          
         <iframe width="350" height="315" class="elementor-video-iframe" allowfullscreen="" title="Lecteur vidéo youtube"
             src="https://www.youtube.com/embed/HKq1lS7JoD4?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=0&amp;mute=0&amp;rel=0&amp;modestbranding=0"></iframe>
@@ -830,7 +834,7 @@
 
  
 
-    <div id="description">
+    <div id="description" data-aos="zoom-out-down" data-aos-duration="1300">
         <div class="sixteen columns">
             <div class="description">
                 <p>
@@ -859,7 +863,7 @@
     
             <div class="post bottom">
     
-                <div class="image-post bottom-2">
+                <div class="image-post bottom-2" data-aos="zoom-out-right" data-aos-duration="1300">
     
                     <div class="flex-container">
                         <div class="flexslider3">
@@ -874,7 +878,7 @@
     
                  
     
-                <div class="post-content">
+                <div class="post-content" data-aos="zoom-out-left" data-aos-duration="1300">
                     <p><h3>
                         * La prime Coup de Pouce Isolation a été instauré dans le cadre de l’élargissement du dispositif des Certificats
                         d’Economies d’Energie (CEE) mis en place en 2017 par le gouvernement.<br>
@@ -921,7 +925,7 @@
 
         
     <div class="clients clearfix"> 
-        <div class="sixteen columns">
+        <div class="sixteen columns"  data-aos="flip-up" data-aos-duration="1300">
             <div class="lp-element lp-pom-text XmediumText nlh" id="lp-pom-text-29">
                 <h3 style="line-height: 38px; text-align: center;">
                     <span
@@ -932,7 +936,7 @@
         </div> 
 
 
-        <div class="eight columns bottom">
+        <div class="eight columns bottom" data-aos="fade-down-right" data-aos-duration="1300">
             <h3>
                 <g> d’éligibilité et validation de votre dossier : </g>Un conseiller vous contactera pour confirmer les éléments
                 importants à votre éligibilité.
@@ -944,9 +948,9 @@
             </h3>
         </div>
         
-        <div class="eight columns bottom">
+        <div class="eight columns bottom"  data-aos="fade-down-left" data-aos-duration="1300">
             <div>
-                <div class="logo">
+                <div class="logo"  >
             
                     <img src="images/descriptionFinal.png" class="displayed" alt="Crevision - Creative Template" />
             
@@ -956,8 +960,8 @@
         
     </div>
  
-    <div id="description"  >
-        <div class="sixteen columns">
+    <div id="description" data-aos="flip-left" data-aos-duration="1300" >
+        <div class="sixteen columns"  >
             <div class="description" >
                 <p>
                     <a href="#" class="link"  >VÉRIFIEZ VOTRE ÉLIGIBILITÉ</a>
@@ -969,8 +973,8 @@
 
 
 
-    <div id="welcome">
-        <div class="sixteen columns">
+    <div id="welcome" data-aos="flip-right" data-aos-duration="1300">
+        <div class="sixteen columns"  >
             <div class="qoute">
                 <div class="eleven columns omega">
                     <h2>tes-vous éligible à l’isolation à 1€ ?</h2>
@@ -982,7 +986,7 @@
         </div>
     </div><!-- End Welcome -->
     <div >
-<p>
+<p data-aos="flip-up" data-aos-duration="1300">
     Conformément aux articles 38, 39, et 40 de la loi n°78-17 dite loi Informatique, fichiers et Libertés du 06 janvier 1978
     (loin°78-17) telle que modifiée par la loi du 06 août 2004, le Client dispose d'un droit d'opposition, d'accès, de
     rectification et de suppression de toutes données personnelles le concernant obtenues par maisonisolationa1euro lors de
