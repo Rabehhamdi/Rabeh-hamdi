@@ -1,0 +1,70 @@
+#wrapper
+{
+   
+  padding:0px;
+  margin:0px auto;
+  font-family:helvetica;
+  position:relative;
+}
+#wrapper .baricon
+{
+  display:inline-block;
+  border-radius:100%;
+  padding:12px;
+  background-color:#38610B;
+  color:white;
+}
+#wrapper .progress_bar
+{
+  width:40px;
+  height:5px;
+  border-radius:20px;
+  background-color:#D8D8D8;
+  display:inline-block;
+}
+#wrapper form div
+{
+  margin-left:5%;
+  padding:10px;
+  box-sizing:border-box;
+  
+  margin-top:10px;
+  background-color:#b3a7a7;
+}
+#wrapper form div p
+{
+  color:#F2F2F2;
+  margin:0px;
+  margin-top:10px;
+  font-weight:bold;
+}
+#wrapper form div .form_head
+{
+  font-size:22px;
+  font-weight:bold;
+  margin-bottom:30px;
+}
+#wrapper form div input[type="text"]
+{
+  width:250px;
+  height:40px;
+  padding:5px;
+  border-radius:5px;
+  border:none;
+  margin-top:10px;
+}
+#wrapper form div input[type="button"],input[type="submit"]
+{
+  width:80px;
+  height:40px;
+  border-radius:5px;
+  border:2px solid white;
+  background:none;
+  color:white;
+  margin:5px;
+  margin-top:10px;
+}
+#user_details,#qualification,#user_4,#user_5,#user_6,#user_7
+{
+  display:none;
+}
