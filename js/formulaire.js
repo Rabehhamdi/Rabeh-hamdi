@@ -12,10 +12,7 @@ function show_next(id, nextid, bar) {
     document.getElementById("account_details").style.display = "none";
     document.getElementById("user_details").style.display = "none";
     document.getElementById("qualification").style.display = "none";
-    document.getElementById("user_4").style.display = "none";
-    document.getElementById("user_5").style.display = "none";
-    document.getElementById("user_6").style.display = "none";
-    document.getElementById("user_7").style.display = "none";
+    document.getElementById("user_4").style.display = "none"; 
     $("#" + nextid).fadeIn();
     document.getElementById(bar).style.backgroundColor = "#38610B";
   }
@@ -28,10 +25,7 @@ function show_prev(previd, bar) {
   document.getElementById("account_details").style.display = "none";
   document.getElementById("user_details").style.display = "none";
   document.getElementById("qualification").style.display = "none";
-  document.getElementById("user_4").style.display = "none";
-  document.getElementById("user_5").style.display = "none";
-  document.getElementById("user_6").style.display = "none";
-  document.getElementById("user_7").style.display = "none";
+  document.getElementById("user_4").style.display = "none"; 
   $("#" + previd).fadeIn();
   document.getElementById(bar).style.backgroundColor = "#D8D8D8";
 }
