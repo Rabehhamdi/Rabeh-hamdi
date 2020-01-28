@@ -194,7 +194,7 @@
         /* Black */
     </style>
     <form method="post" action="">
-        <div id="account_details">
+        <div id="account_details" style="background: #ffffff;">
             <!--   
             <p class='form_head'>Account Details</p>
             <p>Email Address</p>
@@ -212,26 +212,52 @@
             <input type="text" placeholder='Gender'>
             <br>
             --> 
+            <style>
+            .xx span.icon {
+            background-image: url(https://i.ibb.co/S3QRKhx/gas-bottle2.png);
+            float: left; 
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 25px;
+            width: 25px;
+            padding-right: 10px;
+            content: '';
+            }
+
+            
+            .xx span.iconn {
+            background-image: url(https://i.ibb.co/4d2M47k/fuel2.png);
+            float: left; 
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 25px;
+            width: 25px;
+            padding-right: 10px;
+            content: '';
+            }
+            </style>
             <h2>Testez votre éligibilité</h2>
             <h4> Comment vous chauffez-vous ?*</h4>
             <table  style ="border:0px;">
                 <tr>
                     <td>
                          
-                        <button type="button" class="xx xx2" onclick="show_next('account_details','user_details','bar1');">Gaz </button>
+                        <button type="button" class="xx xx2" onclick="show_next('account_details','user_details','bar1');"><span class="icon"></span>Gaz </button>
 
                     </td> 
                 </tr>
                 <tr>
                     <td>
-                    <button type="button" class="xx xx2" onclick="show_next('account_details','user_details','bar1');">Fioul </button>
+                    <button type="button" class="xx xx2" onclick="show_next('account_details','user_details','bar1');"><span class="iconn"></span>Fioul </button>
                      </td>
                 </tr>
             </table>  
  
         </div>
 
-        <div id="user_details">
+        <div id="user_details" style="background: #ffffff;">
            
             <h4> Surface de votre logement ?*</h4>
             <table style="border:0px;">
@@ -268,11 +294,11 @@
             </table>
 
 
-            <input type="button" value="Previous" onclick="show_prev('account_details','bar1');">
+            <input type="button" style="background-color: #4CAF50;" value="Previous" onclick="show_prev('account_details','bar1');">
              
         </div>
 
-        <div id="qualification">
+        <div id="qualification" style="background: #ffffff;">
             <h4> Montant de vos factures de chauffage par mois ?*
             1</h4>
             <table style="border:0px;">
@@ -311,25 +337,25 @@
             </table>
 
             <br>
-            <input type="button" value="Previous" onclick="show_prev('user_details','bar2');"> 
+            <input type="button" style="background-color: #4CAF50;" value="Previous" onclick="show_prev('user_details','bar2');"> 
         </div>  
 
-        <div id="user_4">
+        <div id="user_4" style="background: #ffffff;">
         <h4> Quel est votre revenu annuel ?</h4>
         <h4> Recevez vos résultats *</h4>
         
-        <p>Nom</p>
+        <p style="color: black;">Nom</p>
         <input type="text" placeholder='First Name'>
-        <p> Email</p>
+        <p style="color: black;"> Email</p>
         <input type="text" placeholder='Votre Email'>
-        <p>Téléphone </p>
+        <p style="color: black;">Téléphone </p>
         <input type="text" placeholder='Votre Téléphone(10 chiffres)'>
         
-        <p>Votre département*</p>
+        <p style="color: black;">Votre département*</p>
         <input type="text" placeholder='Votre département'>
         
         <button  type="button" class="xx xx2"  >Je Vérifie Mon Éligibilité </button>
-            <input type="button" value="Previous" onclick="show_prev('qualification','bar3');">
+            <input type="button" style="background-color: #4CAF50;" value="Previous" onclick="show_prev('qualification','bar3');">
         
         </div>
  
